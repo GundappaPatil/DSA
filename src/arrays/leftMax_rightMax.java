@@ -11,7 +11,7 @@ public class leftMax_rightMax {
         for(int i=0 ; i<N ; i++){
             arr[i] = sc.nextInt();
         }
-      int[] leftMax = new int[N];
+        int[] leftMax = new int[N];
         leftMax[0] = arr[0];
         for(int  i=1 ; i<N ; i++){
             leftMax[i] = Math.max(leftMax[i-1],arr[i]);
