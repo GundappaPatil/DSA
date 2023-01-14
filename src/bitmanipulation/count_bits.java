@@ -2,6 +2,7 @@ package bitmanipulation;
 
 import java.util.Scanner;
 
+//count set(1) bits in a given number
 public class count_bits {
     public static boolean checkBit(int x,int k){
             if((x&(1<<k))==0){
