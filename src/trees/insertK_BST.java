@@ -1,5 +1,6 @@
 package trees;
 
+//insert element k in BST
 public class insertK_BST {
     public static TreeNode insert(TreeNode root , int k){
         if(root==null){
